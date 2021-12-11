@@ -1,6 +1,3 @@
-
-
-
 ##Tiles
 
 tile.terraria:corrupt_grass.name=Corrupt Grass Block
@@ -9,9 +6,9 @@ tile.terraria:demonite_ore.name=Demonite Ore
 tile.terraria:ebonslate.name=Ebonslate
 tile.terraria:ebonslate_demonite_ore.name=Ebonslate Demonite Ore
 tile.terraria:corrupt_grass_block.name=Corrupt Grass Block
-tile.terraria:corrupt_blister.name=Corrupt Blister Block
-tile.terraria:corrupt_tendril.name=Corrupt Tendril Block
-tile.terraria:corrupt_growth.name=Corrupt Growth Block
+tile.terraria:corrupt_blister_block.name=Corrupt Blister Block
+tile.terraria:corrupt_tendril_block.name=Corrupt Tendril Block
+tile.terraria:corrupt_growth_block.name=Corrupt Growth Block
 tile.terraria:ebonsand.name=Ebonsand
 tile.terraria:ebonsandstone.name=Ebonsandstone
 tile.terraria:ebonwood_log.name=Ebonwood Log
@@ -24,7 +21,6 @@ tile.terraria:ebonstone_brick.name=Ebonstone Brick
 tile.terraria:demonite_brick.name=Demonite Brick
 tile.terraria:demonite_block.name=Demonite Block
 tile.terraria:raw_demonite_block.name=Raw Demonite Block
-
 
 
 ##Entities
