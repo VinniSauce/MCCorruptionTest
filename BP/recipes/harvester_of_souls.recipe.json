@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aa",
+            "A ",
+            "A "
+        ],
+        "key": {
+            "a": {
+                "item": "terraria:demonite_ingot"
+            },
+            "A": {
+                "item": "terraria:shadow_scale"
+            }
+        },
+        "result": {
+            "item": "terraria:harvester_of_souls",
+            "count": 1
+        },
+        "description": {
+            "identifier": "terraria:harvester_of_souls"
+        }
+    }
+}

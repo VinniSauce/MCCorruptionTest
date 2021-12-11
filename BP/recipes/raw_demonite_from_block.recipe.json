@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "terraria:raw_demonite_block"
+            }
+        },
+        "result": {
+            "item": "terraria:raw_demonite",
+            "count": 9
+        },
+        "description": {
+            "identifier": "terraria:raw_demonite_block"
+        }
+    }
+}

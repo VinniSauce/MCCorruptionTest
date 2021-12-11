@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terraria:vile_mushroom",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.mushroom"
+			},
+			"minecraft:icon": {
+				"texture": "vile_mushroom"
+			},
+			"minecraft:block_placer": {
+				"block": "terraria:vile_mushroom_onground"
+			}
+		}
+	}
+}

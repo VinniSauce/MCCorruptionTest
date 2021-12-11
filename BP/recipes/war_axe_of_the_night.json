@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aa",
+            "Aa",
+            "A "
+        ],
+        "key": {
+            "a": {
+                "item": "terraria:demonite_ingot"
+            },
+            "A": {
+                "item": "terraria:shadow_scale"
+            }
+        },
+        "result": {
+            "item": "terraria:war_axe_of_the_night",
+            "count": 1
+        },
+        "description": {
+            "identifier": "terraria:war_axe_of_the_night"
+        }
+    }
+}

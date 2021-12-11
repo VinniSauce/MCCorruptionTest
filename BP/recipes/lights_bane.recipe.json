@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a",
+            "a",
+            "A"
+        ],
+        "key": {
+            "a": {
+                "item": "terraria:demonite_ingot"
+            },
+            "A": {
+                "item": "terraria:shadow_scale"
+            }
+        },
+        "result": {
+            "item": "terraria:lights_bane",
+            "count": 1
+        },
+        "description": {
+            "identifier": "terraria:lights_bane"
+        }
+    }
+}

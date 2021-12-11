@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terraria:corrupt_tallgrass",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.grass"
+			},
+			"minecraft:icon": {
+				"texture": "corrupt_tallgrass"
+			},
+			"minecraft:block_placer": {
+				"block": "terraria:corrupt_tallgrass_onground"
+			}
+		}
+	}
+}

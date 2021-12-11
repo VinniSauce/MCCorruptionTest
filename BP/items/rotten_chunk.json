@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terraria:rotten_chunk",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rotten_flesh"
+			 },
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "rotten_chunk"
+			}
+		},
+		"events": {}
+	}
+}

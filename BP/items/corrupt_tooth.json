@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "terraria:corrupt_tooth",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.plant"
+			},
+			"minecraft:icon": {
+				"texture": "corrupt_tooth"
+			},
+			"minecraft:block_placer": {
+				"block": "terraria:corrupt_tooth_onground"
+			}
+		}
+	}
+}

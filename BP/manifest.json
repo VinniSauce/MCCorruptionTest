@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Corruption Port Test (Behaviors)",
+        "description": "@VinniSauce",
+        "uuid": "caf6dad4-6dc1-465e-b154-b2fdc915a549",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            10
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "041b0aad-ce42-47bb-870e-ac46630c1a38",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "cc95ae49-6bcd-41f2-979d-aa87e1f8fe2a",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
