@@ -1,0 +1,95 @@
+
+
+
+##Tiles
+
+tile.terraria:corrupt_grass.name=Corrupt Grass Block
+tile.terraria:ebonstone.name=Ebonstone
+tile.terraria:demonite_ore.name=Demonite Ore
+tile.terraria:ebonslate.name=Ebonslate
+tile.terraria:ebonslate_demonite_ore.name=Ebonslate Demonite Ore
+tile.terraria:corrupt_grass_block.name=Corrupt Grass Block
+tile.terraria:corrupt_blister.name=Corrupt Blister Block
+tile.terraria:corrupt_tendril.name=Corrupt Tendril Block
+tile.terraria:corrupt_growth.name=Corrupt Growth Block
+tile.terraria:ebonsand.name=Ebonsand
+tile.terraria:ebonsandstone.name=Ebonsandstone
+tile.terraria:ebonwood_log.name=Ebonwood Log
+tile.terraria:stripped_ebonwood_log.name=Stripped Ebonwood Log
+tile.terraria:ebonwood_leaves.name=Ebonwood Leaves
+tile.terraria:corrupt_tooths_onground.name=Corrupt Tooth
+tile.terraria:vile_mushrooms_onground.name=Vile Mushroom
+tile.terraria:corrupt_tallgrass_onground.name=Corrupt Tall Grass
+tile.terraria:ebonstone_brick.name=Ebonstone Brick
+tile.terraria:demonite_brick.name=Demonite Brick
+tile.terraria:demonite_block.name=Demonite Block
+tile.terraria:raw_demonite_block.name=Raw Demonite Block
+
+
+
+##Entities
+
+item.spawn_egg.entity.terraria:eater_of_souls.name=Spawn Eater of Souls
+entity.terraria:eater_of_souls.name=Eater of Souls
+
+item.spawn_egg.entity.terraria:clinger.name=Spawn Clinger
+entity.terraria:clinger.name=Clinger
+
+item.spawn_egg.entity.terraria:eater_of_worlds_head.name=Spawn Eater of Worlds
+entity.terraria:eater_of_worlds_head.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_1.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_2.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_3.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_4.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_5.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_6.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_7.name=Eater of Worlds
+entity.terraria:eater_of_worlds_segment_8.name=Eater of Worlds
+entity.terraria:eater_of_worlds_tail.name=Eater of Worlds
+
+##Items
+
+##Miscellaneous Items(Translation Keys)
+##Be sure to please DELETE ORIGINAL display names from item data files
+
+
+item.terraria:worm_food=Worm Food
+
+item.terraria:demonite_ingot=Demonite Ingot
+item.terraria:demonite_nugget=Demonite Nugget
+item.terraria:raw_demonite=Raw Demonite
+item.terraria:shadow_scale=Shadow Scale
+item.terraria:corrupt_seeds=Corrupt Seeds
+item.terraria:rotten_chunk=Rotten Chunk
+item.terraria:cursed_flame=Cursed Flame
+
+item.terraria:lights_bane=Light's Bane
+item.terraria:war_axe_of_the_night=War Axe of the Night
+item.terraria:nightmare_pickaxe=Nightmare Pickaxe
+item.terraria:harvester_of_souls=Harvester of Souls
+item.terraria:the_gravedigger=The Gravedigger
+
+item.terraria:shadow_boots=Shadow Boots
+item.terraria:shadow_leggings=Shadow Leggings
+item.terraria:shadow_chestplate=Shadow Chestplate
+item.terraria:shadow_helmet=Shadow Helmet
+
+item.terraria:ancient_shadow_boots=Ancient Shadow Boots
+item.terraria:ancient_shadow_leggings=Ancient Shadow Leggings
+item.terraria:ancient_shadow_chestplate=Ancient Shadow Chestplate
+item.terraria:ancient_shadow_helmet=Ancient Shadow Helmet
+
+item.terraria:musket=Musket
+item.terraria:vilethorn=Vilethorn
+item.terraria:ball_o_hurt=Ball O' Hurt
+
+item.terraria:musket_ball=Musket Ball
+item.terraria:cursed_bullet=Cursed Bullet
+
+item.terraria:corrupt_tooth=Corrupt Tooth
+item.terraria:corrupt_tallgrass=Corrupt Tall Grass
+item.terraria:vile_mushroom=Vile Mushroom
+
+item.terraria:blackcurrant=Blackcurrant
+item.terraria:elderberry=Elderberry
+item.terraria:smoothie_of_darkness=Smoothie of Darkness

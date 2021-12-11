@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Corruption Port Test [Resources]",
+        "description": "@VinniSauce",
+        "uuid": "cc95ae49-6bcd-41f2-979d-aa87e1f8fe2a",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "59d46ffb-28c0-4385-8876-f21588cf3245",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "caf6dad4-6dc1-465e-b154-b2fdc915a549",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

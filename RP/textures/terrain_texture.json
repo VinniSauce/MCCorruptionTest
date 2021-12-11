@@ -1,0 +1,98 @@
+{
+    "num_mip_levels": 0,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "corrupt_grass_top": {
+            "textures": "textures/blocks/corrupt_grass_top"
+        },
+        "corrupt_grass_side": {
+            "textures": "textures/blocks/corrupt_grass_side"
+        },
+        "ebonwood_log": {
+            "textures": "textures/blocks/ebonwood_log"
+        },
+        "ebonwood_log_top": {
+            "textures": "textures/blocks/ebonwood_log_top"
+        },
+        "stripped_ebonwood_log": {
+            "textures": "textures/blocks/stripped_ebonwood_log"
+        },
+        "stripped_ebonwood_log_top": {
+            "textures": "textures/blocks/stripped_ebonwood_log_top"
+        },
+        "ebonwood_leaves": {
+            "textures": "textures/blocks/ebonwood_leaves"
+        },
+        "ebonstone": {
+            "textures": "textures/blocks/ebonstone"
+        },
+        "ebonslate": {
+            "textures": "textures/blocks/ebonslate"
+        },
+        "ebonslate_top": {
+            "textures": "textures/blocks/ebonslate_top"
+        },
+        
+        "demonite_block": {
+            "textures": "textures/blocks/demonite_block"
+        },
+        "raw_demonite_block": {
+            "textures": "textures/blocks/raw_demonite_block"
+        },
+        "demonite_ore": {
+            "textures": "textures/blocks/demonite_ore"
+        },
+        "ebonslate_demonite_ore": {
+            "textures": "textures/blocks/ebonslate_demonite_ore"
+        },
+        
+
+        "ebonsand": {
+            "textures": "textures/blocks/ebonsand"
+        },
+        "ebonsandstone_top": {
+            "textures": "textures/blocks/ebonsandstone_top"
+        },
+        "ebonsandstone": {
+            "textures": "textures/blocks/ebonsandstone"
+        },
+        "ebonsandstone_bottom": {
+            "textures": "textures/blocks/ebonsandstone_bottom"
+        },
+        "ebonstone_brick": {
+            "textures": {
+                "variations": [
+                    {
+                        "path": "textures/blocks/ebonstone_brick_1"
+                    },
+                    {
+                        "path": "textures/blocks/ebonstone_brick_2"
+                    },
+                    {
+                        "path": "textures/blocks/ebonstone_brick_3"
+                    }
+                ]
+            }
+        },
+        "corrupt_growth_block": {
+            "textures": "textures/blocks/corrupt_growth_block"
+        },
+        "corrupt_blister_block": {
+            "textures": "textures/blocks/corrupt_blister_block"
+        },
+        "corrupt_tendril_block": {
+            "textures": "textures/blocks/corrupt_tendril_block"
+        },
+        "vile_mushroom_onground": {
+            "textures": "textures/blocks/vile_mushroom"
+        },
+        "corrupt_tooth_onground": {
+            "textures": "textures/blocks/corrupt_tooth"
+        },
+        "corrupt_tallgrass_onground": {
+            "textures": "textures/blocks/corrupt_tallgrass"
+        }
+    }
+}

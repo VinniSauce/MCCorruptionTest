@@ -1,0 +1,99 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "shadow_scale": {
+            "textures": "textures/items/shadow_scale"
+        },
+        "demonite_ingot": {
+            "textures": "textures/items/demonite_ingot"
+        },
+        "demonite_nugget": {
+            "textures": "textures/items/demonite_nugget"
+        },
+        "raw_demonite": {
+            "textures": "textures/items/raw_demonite"
+        },
+        "lights_bane": {
+            "textures": "textures/items/lights_bane"
+        },
+        "nightmare_pickaxe": {
+            "textures": "textures/items/nightmare_pickaxe"
+        },
+        "war_axe_of_the_night": {
+            "textures": "textures/items/war_axe_of_the_night"
+        },
+        "the_gravedigger": {
+            "textures": "textures/items/the_gravedigger"
+        },
+        "harvester_of_souls": {
+            "textures": "textures/items/harvester_of_souls"
+        },
+        "shadow_helmet": {
+            "textures": "textures/items/shadow_helmet"
+        },
+        "shadow_chestplate": {
+            "textures": "textures/items/shadow_chestplate"
+        },
+        "shadow_leggings": {
+            "textures": "textures/items/shadow_leggings"
+        },
+        "shadow_boots": {
+            "textures": "textures/items/shadow_boots"
+        },
+        "ancient_shadow_helmet": {
+            "textures": "textures/items/ancient_shadow_helmet"
+        },
+        "ancient_shadow_chestplate": {
+            "textures": "textures/items/ancient_shadow_chestplate"
+        },
+        "ancient_shadow_leggings": {
+            "textures": "textures/items/ancient_shadow_leggings"
+        },
+        "ancient_shadow_boots": {
+            "textures": "textures/items/ancient_shadow_boots"
+        },
+        "vilethorn": {
+            "textures": "textures/items/vilethorn"
+        },
+        "ball_o_hurt": {
+            "textures": "textures/items/ball_o_hurt"
+        },
+        "musket_ball": {
+            "textures": "textures/items/musket_ball"
+        },
+        "cursed_bullet": {
+            "textures": "textures/items/cursed_bullet"
+        },
+        "cursed_flame": {
+            "textures": "textures/items/cursed_flame"
+        },
+        "rotten_chunk": {
+            "textures": "textures/items/rotten_chunk"
+        },
+        "worm_food": {
+            "textures": "textures/items/worm_food"
+        },
+        "corrupt_seeds": {
+            "textures": "textures/items/corrupt_seeds"
+        },
+        "corrupt_tallgrass": {
+            "textures": "textures/items/corrupt_tallgrass"
+        },
+        "corrupt_tooth": {
+            "textures": "textures/items/corrupt_tooth"
+        },
+        "vile_mushroom": {
+            "textures": "textures/items/vile_mushroom"
+        },
+        "blackcurrant": {
+            "textures": "textures/items/blackcurrant"
+        },
+        "elderberry": {
+            "textures": "textures/items/elderberry"
+        },
+        "smoothie_of_darkness": {
+            "textures": "textures/items/smoothie_of_darkness"
+        }
+    },
+    "texture_name": "atlas.items"
+}

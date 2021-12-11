@@ -1,0 +1,107 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "terraria:ebonstone": {
+        "sound": "stone",
+        "textures": "ebonstone"
+    },
+    "terraria:corrupt_growth_block": {
+        "sound": "slime",
+        "textures": "corrupt_growth_block"
+    },
+    "terraria:corrupt_tendril_block": {
+        "sound": "slime",
+        "textures": "corrupt_tendril_block"
+    },
+    "terraria:corrupt_blister_block": {
+        "sound": "slime",
+        "textures": "corrupt_blister_block"
+    },
+    "terraria:corrupt_grass_block": {
+        "textures": {
+            "up": "corrupt_grass_top",
+            "down": "dirt",
+            "side": "corrupt_grass_side"
+        },
+        "sound": "grass"
+    },
+    "terraria:ebonstone_brick": {
+        "sound": "stone",
+        "textures": "ebonstone_brick"
+    },
+    "terraria:ebonslate": {
+        "textures": {
+            "up": "ebonslate_top",
+            "down": "ebonslate_top",
+            "side": "ebonslate"
+        },
+        "sound": "deepslate"
+    },
+    "terraria:ebonwood_leaves": {
+        "sound": "leaves",
+        "textures": "ebonstone_brick"
+    },
+    "terraria:ebonwood_log": {
+        "textures": {
+            "up": "ebonwood_log_top",
+            "down": "ebonwood_log_top",
+            "side": "ebonwood_log"
+        },
+        "sound": "wood"
+    },
+    "terraria:stripped_ebonwood_log": {
+        "textures": {
+            "up": "stripped_ebonwood_log_top",
+            "down": "stripped_ebonwood_log_top",
+            "side": "stripped_ebonwood_log"
+        },
+        "sound": "wood"
+    },
+    "terraria:demonite_ore": {
+        "sound": "stone",
+        "textures": "demonite_ore"
+    },
+    "terraria:ebonslate_demonite_ore": {
+        "sound": "deepslate",
+        "textures": "ebonslate_demonite_ore"
+    },
+    "terraria:demonite_brick": {
+        "sound": "metal",
+        "textures": "demonite_brick"
+    },
+    "terraria:demonite_block": {
+        "sound": "metal",
+        "textures": "demonite_block"
+    },
+    "terraria:raw_demonite_block": {
+        "sound": "metal",
+        "textures": "raw_demonite_block"
+    },
+    "terraria:ebonsand": {
+        "sound": "gravel",
+        "textures": "ebonsand"
+    },
+    "terraria:ebonsandstone": {
+        "textures": {
+            "up": "ebonsandstone_top",
+            "down": "ebonsandstone_bottom",
+            "side": "ebonsandstone"
+        },
+        "sound": "stone"
+    },
+    "terraria:vile_mushroom_onground": {
+        "sound": "wood",
+        "textures": "vile_mushroom"
+    },
+    "terraria:corrupt_tooth_onground": {
+        "sound": "stone",
+        "textures": "corrupt_tooth"
+    },
+    "terraria:corrupt_tallgrass_onground": {
+        "sound": "grass",
+        "textures": "corrupt_tallgrass"
+    }
+}
