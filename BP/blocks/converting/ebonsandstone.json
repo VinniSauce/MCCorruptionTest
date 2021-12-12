@@ -2,38 +2,35 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "terraria:ebonwood_leaves"
+            "identifier": "terraria:converting_ebonsandstone"
         },
         "components": {
-            "tag:plant": {},
+            "minecraft:map_color": "#3a3152",
+            "tag:stone": {},
             "minecraft:creative_category": {
                 "category": "nature",
-                "group": "itemGroup.name.leaves"
+                "group": "itemGroup.name.stone"
             },
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "ebonwood_leaves",
-                    "render_method": "blend"
-                }
-            },
-            "minecraft:destroy_time": 1,
-            "minecraft:block_light_absorption": 8,
-            "minecraft:explosion_resistance": 1,
+            "minecraft:destroy_time": 30,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 6,
             "minecraft:unit_cube": {},
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
+            "minecraft:random_ticking": {
                 "on_tick": {
-                    "event": "spread"
+                    "event": "spread",
+                    "target": "self"
                 }
+            },
+            "minecraft:on_step_on": {
+                "event": "spread"
+            },
+            "minecraft:on_player_placing": {
+                "event": "spread"
             },
             "minecraft:on_player_destroyed": {
                 "event": "spread"
             },
-            "minecraft:loot": "loot_tables/blocks/ebonwood_leaves.json"
+            "minecraft:loot": "loot_tables/blocks/ebonsandstone.json"
         },
         "events": {
             "spread": {
@@ -42,7 +39,8 @@
                         "weight": 1,
                         "run_command": {
                             "command": [
-                                "function corruption_spread"
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:ebonsandstone"
                             ]
                         }
                     },

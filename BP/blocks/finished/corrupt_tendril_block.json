@@ -1,0 +1,38 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terraria:corrupt_tendril_block"
+        },
+        "components": {
+            "minecraft:map_color": "#3c2d4f",
+            "tag:stone": {},
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.stone"
+            },
+            "minecraft:destroy_time": 30,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 6,
+            "minecraft:unit_cube": {},
+            "minecraft:loot": "loot_tables/blocks/corrupt_tendril_block.json",
+            "minecraft:on_player_placing": {
+                "event": "spread"
+            }
+        },
+        "events": {
+            "spread": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "function corruption_spread"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

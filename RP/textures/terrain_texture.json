@@ -4,6 +4,10 @@
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.terrain",
     "texture_data": {
+
+        "shadow_orb": {
+            "textures": "textures/blocks/shadow_orb"
+        },
         "corrupt_grass_top": {
             "textures": "textures/blocks/corrupt_grass_top"
         },
@@ -93,6 +97,69 @@
         },
         "corrupt_tallgrass_onground": {
             "textures": "textures/blocks/corrupt_tallgrass"
+        },
+
+
+        
+        "converting_corrupt_grass_top": {
+            "textures": "textures/blocks/converting/corrupt_grass_top"
+        },
+        "converting_corrupt_grass_side": {
+            "textures": "textures/blocks/converting/corrupt_grass_side"
+        },
+        "converting_ebonwood_log": {
+            "textures": "textures/blocks/converting/ebonwood_log"
+        },
+        "converting_ebonwood_log_top": {
+            "textures": "textures/blocks/converting/ebonwood_log_top"
+        },
+        "converting_stripped_ebonwood_log": {
+            "textures": "textures/blocks/converting/stripped_ebonwood_log"
+        },
+        "converting_stripped_ebonwood_log_top": {
+            "textures": "textures/blocks/converting/stripped_ebonwood_log_top"
+        },
+        "converting_ebonwood_leaves": {
+            "textures": "textures/blocks/converting/ebonwood_leaves"
+        },
+        "converting_ebonstone": {
+            "textures": "textures/blocks/converting/ebonstone"
+        },
+        "converting_ebonslate": {
+            "textures": "textures/blocks/converting/ebonslate"
+        },
+        "converting_ebonslate_top": {
+            "textures": "textures/blocks/converting/ebonslate_top"
+        },
+        
+        "converting_demonite_ore": {
+            "textures": "textures/blocks/converting/demonite_ore"
+        },
+        "converting_ebonslate_demonite_ore": {
+            "textures": "textures/blocks/converting/ebonslate_demonite_ore"
+        },
+        
+
+        "converting_ebonsand": {
+            "textures": "textures/blocks/converting/ebonsand"
+        },
+        "converting_ebonsandstone_top": {
+            "textures": "textures/blocks/converting/ebonsandstone_top"
+        },
+        "converting_ebonsandstone": {
+            "textures": "textures/blocks/converting/ebonsandstone"
+        },
+        "converting_ebonsandstone_bottom": {
+            "textures": "textures/blocks/converting/ebonsandstone_bottom"
+        },
+        "converting_corrupt_growth_block": {
+            "textures": "textures/blocks/converting/corrupt_growth_block"
+        },
+        "converting_corrupt_blister_block": {
+            "textures": "textures/blocks/converting/corrupt_blister_block"
+        },
+        "converting_corrupt_tendril_block": {
+            "textures": "textures/blocks/converting/corrupt_tendril_block"
         }
     }
 }

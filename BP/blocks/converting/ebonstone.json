@@ -1,0 +1,64 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terraria:converting_ebonstone"
+        },
+        "components": {
+            "minecraft:map_color": "#4b3962",
+            "tag:stone": {},
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.stone"
+            },
+            "minecraft:destroy_time": 30,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 6,
+            "minecraft:unit_cube": {},
+            "minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "spread",
+                    "target": "self"
+                }
+            },
+            "minecraft:on_step_on": {
+                "event": "spread"
+            },
+            "minecraft:on_player_placing": {
+                "event": "spread"
+            },
+            "minecraft:on_player_destroyed": {
+                "event": "spread"
+            },
+            "minecraft:loot": "loot_tables/blocks/ebonstone.json"
+        },
+        "events": {
+            "spread": {
+                "randomize": [
+                    {
+                        "weight": 9,
+                        "run_command": {
+                            "command": [
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:ebonstone"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:ebonstone",
+                                "fill ~ ~1 ~ ~ ~1 ~ terraria:corrupt_tooth_onground 0 replace air"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 30
+                    }
+                ]
+            }
+        }
+    }
+}

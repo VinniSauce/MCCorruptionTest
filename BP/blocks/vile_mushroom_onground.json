@@ -8,7 +8,6 @@
             "minecraft:destroy_time": 0,
             "minecraft:block_light_absorption": 0,
             "minecraft:explosion_resistance": 0,
-            "minecraft:unit_cube": {},
             "minecraft:entity_collision": false,
             "minecraft:pick_collision": {
                 "origin": [
@@ -22,21 +21,38 @@
                     8
                 ]
             },
-            "minecraft:geometry": "geometry.cross",
+            "minecraft:breakonpush": true,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "terraria:ebonstone",
+                            "terraria:ebonslate",
+                            "terraria:corrupt_blister_block",
+                            "terraria:corrupt_growth_block",
+                            "terraria:corrupt_tendril_block",
+                            "terraria:converting_ebonstone",
+                            "terraria:converting_ebonslate",
+                            "terraria:converting_corrupt_blister_block",
+                            "terraria:converting_corrupt_growth_block",
+                            "terraria:converting_corrupt_tendril_block",
+                            "terraria:corrupt_grass_block",
+                            "terraria:converting_corrupt_grass_block",
+                            "minecraft:dirt"
+                        ],
+                        "allowed_faces": [
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:geometry": "geometry.plant",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "vile_mushroom_onground",
-                    "render_method": "blend"
-                }
-            },
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
-                "on_tick": {
-                    "event": "spread"
+                    "render_method": "alpha_test",
+                    "face_dimming": false,
+                    "ambient_occlusion": false
                 }
             },
             "minecraft:on_player_destroyed": {
@@ -54,9 +70,6 @@
                                 "function corruption_spread"
                             ]
                         }
-                    },
-                    {
-                        "weight": 3
                     }
                 ]
             }

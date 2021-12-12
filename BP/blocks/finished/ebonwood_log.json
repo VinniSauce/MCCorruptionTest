@@ -1,0 +1,41 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terraria:ebonwood_log"
+        },
+        "components": {
+            "minecraft:map_color": "#5e577a",
+            "tag:wood": {},
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.logs"
+            },
+            "minecraft:destroy_time": 15,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 9,
+            "minecraft:unit_cube": {},
+            "minecraft:flammable": {
+				"burn_odds": 1,
+				"flame_odds": 2
+			},
+            "minecraft:on_player_placing": {
+                "event": "spread"
+            }
+        },
+        "events": {
+            "spread": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "function corruption_spread"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

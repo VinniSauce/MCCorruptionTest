@@ -1,6 +1,5 @@
 ##Tiles
 
-tile.terraria:corrupt_grass.name=Corrupt Grass Block
 tile.terraria:ebonstone.name=Ebonstone
 tile.terraria:demonite_ore.name=Demonite Ore
 tile.terraria:ebonslate.name=Ebonslate
@@ -21,6 +20,20 @@ tile.terraria:ebonstone_brick.name=Ebonstone Brick
 tile.terraria:demonite_brick.name=Demonite Brick
 tile.terraria:demonite_block.name=Demonite Block
 tile.terraria:raw_demonite_block.name=Raw Demonite Block
+
+tile.terraria:converting_ebonstone.name=Partially Corrupt Stone
+tile.terraria:converting_demonite_ore.name=Partially Corrupt Ore
+tile.terraria:converting_ebonslate.name=Partially Corrupt Deepslate
+tile.terraria:converting_ebonslate_demonite_ore.name=Partially Corrupt Deepslate Ore
+tile.terraria:converting_corrupt_grass_block.name=Partially Corrupt Grass Block
+tile.terraria:converting_corrupt_blister_block.name=Partially Corrupt Granite
+tile.terraria:converting_corrupt_tendril_block.name=Partially Corrupt Andesite
+tile.terraria:converting_corrupt_growth_block.name=Partially Corrupt Diorite
+tile.terraria:converting_ebonsand.name=Partially Corrupt Sand
+tile.terraria:converting_ebonsandstone.name=Partially Corrupt Sandstone
+tile.terraria:converting_ebonwood_log.name=Partially Corrupt Log
+tile.terraria:converting_stripped_ebonwood_log.name=Stripped Partially Corrupt Log
+tile.terraria:converting_ebonwood_leaves.name=Partially Corrupt Leaves
 
 
 ##Entities

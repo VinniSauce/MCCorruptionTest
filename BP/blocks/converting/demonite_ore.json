@@ -2,32 +2,35 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "terraria:ebonstone"
+            "identifier": "terraria:converting_demonite_ore"
         },
         "components": {
+            "minecraft:map_color": "#6c51ce",
             "tag:stone": {},
             "minecraft:creative_category": {
                 "category": "nature",
-                "group": "itemGroup.name.stone"
+                "group": "itemGroup.name.ore"
             },
             "minecraft:destroy_time": 30,
             "minecraft:block_light_absorption": 15,
             "minecraft:explosion_resistance": 6,
             "minecraft:unit_cube": {},
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
+            "minecraft:random_ticking": {
                 "on_tick": {
-                    "event": "spread"
+                    "event": "spread",
+                    "target": "self"
                 }
+            },
+            "minecraft:on_step_on": {
+                "event": "spread"
+            },
+            "minecraft:on_player_placing": {
+                "event": "spread"
             },
             "minecraft:on_player_destroyed": {
                 "event": "spread"
             },
-            "minecraft:loot": "loot_tables/blocks/ebonstone.json"
+            "minecraft:loot": "loot_tables/blocks/demonite_ore.json"
         },
         "events": {
             "spread": {
@@ -36,7 +39,8 @@
                         "weight": 1,
                         "run_command": {
                             "command": [
-                                "function corruption_spread"
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:demonite_ore"
                             ]
                         }
                     },

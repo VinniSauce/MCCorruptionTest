@@ -2,31 +2,35 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "terraria:ebonsand"
+            "identifier": "terraria:converting_corrupt_grass_block"
         },
         "components": {
-            "tag:sand": {},
+            "minecraft:map_color": "#93789a",
+            "tag:dirt": {},
             "minecraft:creative_category": {
                 "category": "nature",
-                "group": "itemGroup.name.sand"
+                "group": "itemGroup.name.grass"
             },
             "minecraft:destroy_time": 15,
             "minecraft:block_light_absorption": 15,
             "minecraft:explosion_resistance": 9,
             "minecraft:unit_cube": {},
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
+            "minecraft:random_ticking": {
                 "on_tick": {
-                    "event": "spread"
+                    "event": "spread",
+                    "target": "self"
                 }
+            },
+            "minecraft:on_step_on": {
+                "event": "spread"
+            },
+            "minecraft:on_player_placing": {
+                "event": "spread"
             },
             "minecraft:on_player_destroyed": {
                 "event": "spread"
-            }
+            },
+            "minecraft:loot": "loot_tables/blocks/corrupt_grass_block.json"
         },
         "events": {
             "spread": {
@@ -35,12 +39,10 @@
                         "weight": 1,
                         "run_command": {
                             "command": [
-                                "function corruption_spread"
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:corrupt_grass_block"
                             ]
                         }
-                    },
-                    {
-                        "weight": 3
                     }
                 ]
             }

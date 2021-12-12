@@ -1,0 +1,54 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terraria:converting_corrupt_tendril_block"
+        },
+        "components": {
+            "minecraft:map_color": "#3c2d4f",
+            "tag:stone": {},
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.stone"
+            },
+            "minecraft:destroy_time": 30,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 6,
+            "minecraft:unit_cube": {},
+            "minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "spread",
+                    "target": "self"
+                }
+            },
+            "minecraft:on_step_on": {
+                "event": "spread"
+            },
+            "minecraft:on_player_placing": {
+                "event": "spread"
+            },
+            "minecraft:on_player_destroyed": {
+                "event": "spread"
+            },
+            "minecraft:loot": "loot_tables/blocks/corrupt_tendril_block.json"
+        },
+        "events": {
+            "spread": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:corrupt_tendril_block"
+                            ]
+                        }
+                    },
+                    {
+                        "weight": 0
+                    }
+                ]
+            }
+        }
+    }
+}

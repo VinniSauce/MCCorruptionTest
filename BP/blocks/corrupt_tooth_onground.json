@@ -5,10 +5,9 @@
             "identifier": "terraria:corrupt_tooth_onground"
         },
         "components": {
-            "minecraft:destroy_time": 0,
+            "minecraft:destroy_time": 15,
             "minecraft:block_light_absorption": 0,
             "minecraft:explosion_resistance": 0,
-            "minecraft:unit_cube": {},
             "minecraft:entity_collision": {
                 "origin": [
                     -4,
@@ -33,28 +32,58 @@
                     8
                 ]
             },
-            "minecraft:geometry": "geometry.cross",
+            "minecraft:breakonpush": true,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "terraria:ebonstone",
+                            "terraria:ebonslate",
+                            "terraria:corrupt_blister_block",
+                            "terraria:corrupt_growth_block",
+                            "terraria:corrupt_tendril_block",
+                            "terraria:converting_ebonstone",
+                            "terraria:converting_ebonslate",
+                            "terraria:converting_corrupt_blister_block",
+                            "terraria:converting_corrupt_growth_block",
+                            "terraria:converting_corrupt_tendril_block",
+                            "terraria:corrupt_grass_block",
+                            "terraria:converting_corrupt_grass_block",
+                            "minecraft:dirt"
+                        ],
+                        "allowed_faces": [
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:geometry": "geometry.plant",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "corrupt_tooth_onground",
-                    "render_method": "blend"
+                    "render_method": "alpha_test",
+                    "face_dimming": false,
+                    "ambient_occlusion": false
                 }
             },
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
-                "on_tick": {
-                    "event": "spread"
-                }
-            },
+            "minecraft:on_fall_on": {
+				"event": "damage",
+				"target": "other",
+			    "min_fall_distance": 1
+			},
             "minecraft:on_player_destroyed": {
                 "event": "spread"
-            }
+            },
+            "minecraft:loot": "loot_tables/blocks/corrupt_tooth_onground.json"
         },
         "events": {
+            "damage": {
+				"damage": {
+					"amount": 5,
+					"target": "other",
+					"type": "fall"
+				}
+			},
             "spread": {
                 "randomize": [
                     {
@@ -64,9 +93,6 @@
                                 "function corruption_spread"
                             ]
                         }
-                    },
-                    {
-                        "weight": 3
                     }
                 ]
             }

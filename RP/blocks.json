@@ -4,11 +4,16 @@
         1,
         0
     ],
+    "terraria:shadow_orb": {
+        "sound": "glass",
+        "textures": "shadow_orb"
+    },
     "terraria:ebonstone": {
         "sound": "stone",
         "textures": "ebonstone"
     },
     "terraria:corrupt_growth_block": {
+        "isotropic": true,
         "sound": "slime",
         "textures": "corrupt_growth_block"
     },
@@ -21,6 +26,10 @@
         "textures": "corrupt_blister_block"
     },
     "terraria:corrupt_grass_block": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
         "textures": {
             "up": "corrupt_grass_top",
             "down": "dirt",
@@ -28,11 +37,11 @@
         },
         "sound": "grass"
     },
-    "terraria:ebonstone_brick": {
-        "sound": "stone",
-        "textures": "ebonstone_brick"
-    },
     "terraria:ebonslate": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
         "textures": {
             "up": "ebonslate_top",
             "down": "ebonslate_top",
@@ -41,10 +50,15 @@
         "sound": "deepslate"
     },
     "terraria:ebonwood_leaves": {
+        "isotropic": true,
         "sound": "leaves",
-        "textures": "ebonstone_brick"
+        "textures": "ebonwood_leaves"
     },
     "terraria:ebonwood_log": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
         "textures": {
             "up": "ebonwood_log_top",
             "down": "ebonwood_log_top",
@@ -53,6 +67,10 @@
         "sound": "wood"
     },
     "terraria:stripped_ebonwood_log": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
         "textures": {
             "up": "stripped_ebonwood_log_top",
             "down": "stripped_ebonwood_log_top",
@@ -65,8 +83,33 @@
         "textures": "demonite_ore"
     },
     "terraria:ebonslate_demonite_ore": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
         "sound": "deepslate",
         "textures": "ebonslate_demonite_ore"
+    },
+    "terraria:ebonsand": {
+        "isotropic": true,
+        "sound": "gravel",
+        "textures": "ebonsand"
+    },
+    "terraria:ebonsandstone": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
+        "textures": {
+            "up": "ebonsandstone_top",
+            "down": "ebonsandstone_bottom",
+            "side": "ebonsandstone"
+        },
+        "sound": "stone"
+    },
+    "terraria:ebonstone_brick": {
+        "sound": "stone",
+        "textures": "ebonstone_brick"
     },
     "terraria:demonite_brick": {
         "sound": "metal",
@@ -80,18 +123,6 @@
         "sound": "metal",
         "textures": "raw_demonite_block"
     },
-    "terraria:ebonsand": {
-        "sound": "gravel",
-        "textures": "ebonsand"
-    },
-    "terraria:ebonsandstone": {
-        "textures": {
-            "up": "ebonsandstone_top",
-            "down": "ebonsandstone_bottom",
-            "side": "ebonsandstone"
-        },
-        "sound": "stone"
-    },
     "terraria:vile_mushroom_onground": {
         "sound": "wood",
         "textures": "vile_mushroom"
@@ -103,5 +134,105 @@
     "terraria:corrupt_tallgrass_onground": {
         "sound": "grass",
         "textures": "corrupt_tallgrass"
+    },
+    
+    "terraria:converting_ebonstone": {
+        "sound": "stone",
+        "textures": "converting_ebonstone"
+    },
+    "terraria:converting_corrupt_growth_block": {
+        "isotropic": true,
+        "sound": "slime",
+        "textures": "converting_corrupt_growth_block"
+    },
+    "terraria:converting_corrupt_tendril_block": {
+        "sound": "slime",
+        "textures": "converting_corrupt_tendril_block"
+    },
+    "terraria:converting_corrupt_blister_block": {
+        "sound": "slime",
+        "textures": "converting_corrupt_blister_block"
+    },
+    "terraria:converting_corrupt_grass_block": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
+        "textures": {
+            "up": "converting_corrupt_grass_top",
+            "down": "dirt",
+            "side": "converting_corrupt_grass_side"
+        },
+        "sound": "grass"
+    },
+    "terraria:converting_ebonslate": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
+        "textures": {
+            "up": "converting_ebonslate_top",
+            "down": "converting_ebonslate_top",
+            "side": "converting_ebonslate"
+        },
+        "sound": "deepslate"
+    },
+    "terraria:converting_ebonwood_leaves": {
+        "isotropic": true,
+        "sound": "leaves",
+        "textures": "converting_ebonwood_leaves"
+    },
+    "terraria:converting_ebonwood_log": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
+        "textures": {
+            "up": "converting_ebonwood_log_top",
+            "down": "converting_ebonwood_log_top",
+            "side": "converting_ebonwood_log"
+        },
+        "sound": "wood"
+    },
+    "terraria:converting_stripped_ebonwood_log": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
+        "textures": {
+            "up": "converting_stripped_ebonwood_log_top",
+            "down": "converting_stripped_ebonwood_log_top",
+            "side": "converting_stripped_ebonwood_log"
+        },
+        "sound": "wood"
+    },
+    "terraria:converting_demonite_ore": {
+        "sound": "stone",
+        "textures": "converting_demonite_ore"
+    },
+    "terraria:converting_ebonslate_demonite_ore": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
+        "sound": "deepslate",
+        "textures": "converting_ebonslate_demonite_ore"
+    },
+    "terraria:converting_ebonsand": {
+        "isotropic": true,
+        "sound": "gravel",
+        "textures": "converting_ebonsand"
+    },
+    "terraria:converting_ebonsandstone": {
+        "isotropic": {
+            "down": true,
+            "up": true
+        },
+        "textures": {
+            "up": "converting_ebonsandstone_top",
+            "down": "converting_ebonsandstone_bottom",
+            "side": "converting_ebonsandstone"
+        },
+        "sound": "stone"
     }
 }

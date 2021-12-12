@@ -2,9 +2,10 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "terraria:corrupt_growth_block"
+            "identifier": "terraria:converting_corrupt_growth_block"
         },
         "components": {
+            "minecraft:map_color": "#3c2d4f",
             "tag:stone": {},
             "minecraft:creative_category": {
                 "category": "nature",
@@ -14,15 +15,17 @@
             "minecraft:block_light_absorption": 15,
             "minecraft:explosion_resistance": 6,
             "minecraft:unit_cube": {},
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
+            "minecraft:random_ticking": {
                 "on_tick": {
-                    "event": "spread"
+                    "event": "spread",
+                    "target": "self"
                 }
+            },
+            "minecraft:on_step_on": {
+                "event": "spread"
+            },
+            "minecraft:on_player_placing": {
+                "event": "spread"
             },
             "minecraft:on_player_destroyed": {
                 "event": "spread"
@@ -36,12 +39,13 @@
                         "weight": 1,
                         "run_command": {
                             "command": [
-                                "function corruption_spread"
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:corrupt_growth_block"
                             ]
                         }
                     },
                     {
-                        "weight": 3
+                        "weight": 0
                     }
                 ]
             }

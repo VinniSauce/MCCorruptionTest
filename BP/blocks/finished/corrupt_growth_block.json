@@ -2,32 +2,23 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "terraria:ebonslate_demonite_ore"
+            "identifier": "terraria:corrupt_growth_block"
         },
         "components": {
+            "minecraft:map_color": "#3c2d4f",
             "tag:stone": {},
             "minecraft:creative_category": {
                 "category": "nature",
-                "group": "itemGroup.name.ore"
+                "group": "itemGroup.name.stone"
             },
-            "minecraft:destroy_time": 60,
+            "minecraft:destroy_time": 30,
             "minecraft:block_light_absorption": 15,
             "minecraft:explosion_resistance": 6,
             "minecraft:unit_cube": {},
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
-                "on_tick": {
-                    "event": "spread"
-                }
-            },
-            "minecraft:on_player_destroyed": {
+            "minecraft:loot": "loot_tables/blocks/corrupt_growth_block.json",
+            "minecraft:on_player_placing": {
                 "event": "spread"
-            },
-            "minecraft:loot": "loot_tables/blocks/ebonslate_demonite_ore.json"
+            }
         },
         "events": {
             "spread": {
@@ -39,9 +30,6 @@
                                 "function corruption_spread"
                             ]
                         }
-                    },
-                    {
-                        "weight": 3
                     }
                 ]
             }

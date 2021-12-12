@@ -2,32 +2,38 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "terraria:corrupt_tendril_block"
+            "identifier": "terraria:converting_ebonwood_log"
         },
         "components": {
-            "tag:stone": {},
+            "minecraft:map_color": "#5e577a",
+            "tag:wood": {},
             "minecraft:creative_category": {
                 "category": "nature",
-                "group": "itemGroup.name.stone"
+                "group": "itemGroup.name.logs"
             },
-            "minecraft:destroy_time": 30,
+            "minecraft:destroy_time": 15,
             "minecraft:block_light_absorption": 15,
-            "minecraft:explosion_resistance": 6,
+            "minecraft:explosion_resistance": 9,
             "minecraft:unit_cube": {},
-            "minecraft:ticking": {
-                "looping": false,
-                "range": [
-                    300,
-                    300
-                ],
+            "minecraft:random_ticking": {
                 "on_tick": {
-                    "event": "spread"
+                    "event": "spread",
+                    "target": "self"
                 }
+            },
+            "minecraft:on_step_on": {
+                "event": "spread"
+            },
+            "minecraft:on_player_placing": {
+                "event": "spread"
             },
             "minecraft:on_player_destroyed": {
                 "event": "spread"
             },
-            "minecraft:loot": "loot_tables/blocks/corrupt_tendril_block.json"
+            "minecraft:flammable": {
+				"burn_odds": 1,
+				"flame_odds": 2
+			}
         },
         "events": {
             "spread": {
@@ -36,12 +42,13 @@
                         "weight": 1,
                         "run_command": {
                             "command": [
-                                "function corruption_spread"
+                                "function corruption_spread",
+                                "setblock ~ ~ ~ terraria:ebonwood_log"
                             ]
                         }
                     },
                     {
-                        "weight": 3
+                        "weight": 1
                     }
                 ]
             }

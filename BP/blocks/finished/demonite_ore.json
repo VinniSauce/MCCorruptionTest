@@ -1,0 +1,38 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terraria:demonite_ore"
+        },
+        "components": {
+            "minecraft:map_color": "#6c51ce",
+            "tag:stone": {},
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore"
+            },
+            "minecraft:destroy_time": 30,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 6,
+            "minecraft:unit_cube": {},
+            "minecraft:loot": "loot_tables/blocks/demonite_ore.json",
+            "minecraft:on_player_placing": {
+                "event": "spread"
+            }
+        },
+        "events": {
+            "spread": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "function corruption_spread"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

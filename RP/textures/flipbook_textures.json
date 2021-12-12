@@ -1,0 +1,7 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/shadow_orb",
+    "atlas_tile": "shadow_orb",
+    "ticks_per_frame": 100
+  }
+]

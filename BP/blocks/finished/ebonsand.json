@@ -1,0 +1,37 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "terraria:ebonsand"
+        },
+        "components": {
+            "minecraft:map_color": "#3a3152",
+            "tag:sand": {},
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.sand"
+            },
+            "minecraft:destroy_time": 15,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 9,
+            "minecraft:unit_cube": {},
+            "minecraft:on_player_placing": {
+                "event": "spread"
+            }
+        },
+        "events": {
+            "spread": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "function corruption_spread"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
